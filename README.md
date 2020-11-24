@@ -11,7 +11,7 @@ Tip: With systemd-resolved.service, 127.0.0.53#53(127.0.0.53) is the local DNS s
 
 ## 2.Custom DNS target
 
-```
+```[bash]
 sudo vim /etc/systemd/resolved.conf
 ```
 
