@@ -35,7 +35,7 @@ In *[Resolve]* section, modify the **Domains**:
 Domains=~. ~github.com ~microsoft.com
 ```
 
-In *Domains* field, Specify which domain you want to reolve prefix with `~`
+In *Domains* field, Specify which domain you want to reolve prefix with `~`.
 
 > :warning: `~.` means resolve the *root DNS(.)*, but there are usually two `~.` value of different items shown by `resolvectl status`. One is **Golbal**, another is **Link <num>** which is dynamic set by receiving over DHCP, information provided via NetworkManager.
 
