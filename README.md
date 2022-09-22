@@ -1,6 +1,16 @@
 # systemd-resolved
 Next generation DNS resolve scheme.
 
+## 0. Recommended DNS servers
+
+- IPv4
+    - 8.8.4.4
+    - 1.0.0.1
+
+- IPv6
+    - 2001:4860:4860::8844
+    - 2606:4700:4700::1001
+
 ## 1.Examine DNS status
 
 ```
